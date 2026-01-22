@@ -1,0 +1,27 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Jenkins local artifacts
+.jenkins/
+*.log
+
+# Groovy / Java build artifacts
+target/
+build/
+out/
+*.class
+
+# Dependency caches
+.gradle/
+.mvn/
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.bak
